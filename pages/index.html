@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-[#faf9f6] text-slate-900 font-sans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trueman Cars | Premium Car Rentals Lagos</title>
+  <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="overflow-x-hidden antialiased selection:bg-amber-400 selection:text-slate-900">
+
+  <!--  TOP NAVIGATION BAR -->
+  <header class="sticky top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-stone-100 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center relative">
+      
+      <a href="index.html" class="flex items-center space-x-1 uppercase font-black text-xl tracking-tight text-slate-900">
+        Trueman<span class="text-amber-500">Cars</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="peer hidden" />
+      
+      <label for="nav-toggle" class="lg:hidden flex flex-col gap-1.5 cursor-pointer z-50 p-2 border border-slate-200 rounded-sm">
+        <span class="w-5 h-0.5 bg-slate-800"></span>
+        <span class="w-5 h-0.5 bg-slate-800"></span>
+        <span class="w-5 h-0.5 bg-slate-800"></span>
+      </label>
+      
+      <nav class="absolute lg:relative top-full left-0 w-full lg:w-auto bg-white lg:bg-transparent px-6 py-6 lg:p-0 flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-7 text-xs font-bold uppercase tracking-wider text-slate-700 max-h-0 lg:max-h-none overflow-hidden opacity-0 lg:opacity-100 transition-all duration-300 peer-checked:max-h-[400px] peer-checked:opacity-100 shadow-lg lg:shadow-none">
+        <a href="index.html" class="text-amber-500">Home</a>
+        <a href="fleet.html" class="hover:text-amber-500 transition-colors">Our Fleet</a>
+        <a href="gallery.html" class="hover:text-amber-500 transition-colors">Gallery</a>
+        <a href="contact.html" class="hover:text-amber-500 transition-colors">Contact</a>
+      </nav>
+
+      <div class="hidden md:flex items-center space-x-4">
+        <span class="text-lg">🇳🇬</span>
+        <div class="flex flex-col">
+          <span class="text-[9px] uppercase tracking-wider text-slate-400 font-bold">Lagos Hotline</span>
+          <a href="tel:+2349136898027" class="text-xs font-extrabold text-slate-900">+234 913 689 8027</a>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- MINIMALIST HERO BLOCK -->
+  <section class="relative w-full min-h-[450px] sm:min-h-[500px] lg:h-[560px] bg-[#fdfcf7] flex items-center overflow-hidden">
+    <div class="absolute inset-0 z-0 opacity-40 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <div class="absolute top-0 right-0 h-full w-1/3 lg:w-[35%] bg-amber-500 transform skew-x-[-12deg] translate-x-16 hidden sm:block z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 sm:grid-cols-12 gap-6 relative z-20 items-center py-12 sm:py-0">
+      <div class="sm:col-span-7 lg:col-span-6 space-y-4">
+        <span class="text-[10px] sm:text-xs font-bold uppercase tracking-[0.2em] text-amber-600 block">✨ Premium Fleet Delivery in Lagos</span>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black uppercase text-slate-950 tracking-tight leading-[1.05]">
+          DRIVE YOUR <br class="hidden lg:block"><span class="text-amber-500">DREAM CAR</span> TODAY
+        </h1>
+        <p class="max-w-md text-slate-600 text-xs sm:text-sm font-light leading-relaxed">
+          From affordable daily commuters to luxurious executive SUVs, Trueman Cars provides uncompromised security, absolute comfort, and reliable rental assets tailored to your schedule.
+        </p>
+        <div class="pt-2">
+          <a href="fleet.html" class="bg-amber-500 hover:bg-slate-950 text-slate-950 hover:text-white font-extrabold text-xs uppercase tracking-widest px-6 py-3.5 transition-colors duration-300 rounded-sm inline-block shadow-md">
+            View Our Fleet +
+          </a>
+        </div>
+      </div>
+
+      <div class="sm:col-span-5 lg:col-span-6 flex justify-center sm:justify-end relative pt-6 sm:pt-0">
+        <img src="../images/luxi.jpeg" alt="Luxury Sports Car" class="w-full max-w-[480px] lg:max-w-[560px] object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.15)] z-30">
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES SIGNPOST -->
+  <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center space-y-2 mb-12">
+      <span class="text-[10px] font-bold uppercase tracking-widest text-amber-500">Diverse Options</span>
+      <h2 class="text-2xl sm:text-3xl font-black uppercase tracking-tight text-slate-950">OUR VEHICLE CATEGORIES</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Economy -->
+      <div class="bg-white border border-slate-100 rounded-sm p-6 shadow-xs hover:shadow-md transition-all">
+        <span class="text-2xl">🚗</span>
+        <h3 class="font-extrabold text-base uppercase tracking-wider text-slate-900 mt-3">Economy Cars</h3>
+        <p class="text-xs text-slate-500 font-light mt-1 mb-4">Fuel-efficient, practical options perfect for daily inner-city Lagos navigation.</p>
+        <span class="text-xs font-bold text-amber-600 uppercase">From ₦35,000 / Day</span>
+      </div>
+      <!-- SUV -->
+      <div class="bg-white border border-slate-100 rounded-sm p-6 shadow-xs hover:shadow-md transition-all">
+        <span class="text-2xl">🚙</span>
+        <h3 class="font-extrabold text-base uppercase tracking-wider text-slate-900 mt-3">Spacious SUVs</h3>
+        <p class="text-xs text-slate-500 font-light mt-1 mb-4">Powerful terrain clearance with high seating capacity for absolute command.</p>
+        <span class="text-xs font-bold text-amber-600 uppercase">From ₦75,000 / Day</span>
+      </div>
+      <!-- Luxury -->
+      <div class="bg-white border border-slate-100 rounded-sm p-6 shadow-xs hover:shadow-md transition-all">
+        <span class="text-2xl">✨</span>
+        <h3 class="font-extrabold text-base uppercase tracking-wider text-slate-900 mt-3">Luxury & Executive</h3>
+        <p class="text-xs text-slate-500 font-light mt-1 mb-4">Premium configurations for status updates, corporate protocols, or events.</p>
+        <span class="text-xs font-bold text-amber-600 uppercase">From ₦180,000 / Day</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFILE SECTION  -->
+  <section class="py-16 bg-white border-t border-b border-slate-100 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-6 space-y-6">
+        <div class="space-y-2">
+          <span class="text-[10px] font-bold uppercase tracking-widest text-amber-500 block">⚡ WELCOME TO TRUEMAN CARS</span>
+          <h2 class="text-2xl sm:text-3xl font-black uppercase tracking-tight text-slate-950">EXPERIENCE PREMIER LIBERTY ON ROADWAYS</h2>
+        </div>
+        <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">
+          We pride ourselves on providing well-maintained, highly secured vehicles across Lagos. Whether you need a short-term luxury ride for a corporate meeting or a robust SUV for weekend trips, we cover your logistics seamlessly.
+        </p>
+
+        <div class="flex items-start gap-4 p-1">
+          <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center shrink-0 shadow-xs font-bold text-sm">🛡️</div>
+          <div>
+            <h4 class="font-extrabold text-xs sm:text-sm uppercase tracking-wider text-slate-900">Verified Professional Drivers</h4>
+            <p class="text-[11px] text-slate-400 font-light">Optional highly trained escorts and professional drivers available upon booking.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-4 p-1">
+          <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center shrink-0 shadow-xs font-bold text-sm">⏱️</div>
+          <div>
+            <h4 class="font-extrabold text-xs sm:text-sm uppercase tracking-wider text-slate-900">24/7 Roadside Assistance</h4>
+            <p class="text-[11px] text-slate-400 font-light">Our round-the-clock technical dispatch group stands by to secure your destination journey.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 grid grid-cols-12 gap-4 items-end">
+        <div class="col-span-6 space-y-4">
+          <div class="rounded-sm overflow-hidden shadow-md border border-slate-100">
+            <img src="../images/luxiry.jpeg" alt="Luxury vehicle" class="w-full h-40 object-cover">
+          </div>
+          <div class="rounded-sm overflow-hidden shadow-md border border-slate-100">
+            <img src="../images/luxir.jpeg" alt="Offroad SUV" class="w-full h-40 object-cover">
+          </div>
+        </div>
+        <div class="col-span-6 space-y-4">
+          <div class="rounded-sm overflow-hidden shadow-lg border border-slate-100">
+            <img src="../images/benz.jpeg" alt="Luxury sedan dashboard" class="w-full h-72 object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  FOOTER  -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="space-y-3">
+        <h3 class="text-white font-black uppercase text-base">Trueman<span class="text-amber-500">Cars</span></h3>
+        <p class="font-light leading-relaxed">Premier vehicle leasing and premium protection services tailored precisely across the Lagos landscape.</p>
+      </div>
+      <div class="space-y-2">
+        <h4 class="text-white font-bold uppercase tracking-wider text-[11px]">Contact Links</h4>
+        <p class="font-light">📍 Lagos Office: Victoria Island, Lagos, Nigeria.</p>
+        <p class="font-light">📞 Hotlines: <a href="tel:+2349136898027" class="text-white hover:text-amber-500">+234 913 689 8027</a></p>
+      </div>
+      <div class="space-y-2">
+        <h4 class="text-white font-bold uppercase tracking-wider text-[11px]">Quick Nav</h4>
+        <div class="flex flex-col gap-1.5 font-bold uppercase text-[10px] tracking-wider">
+          <a href="fleet.html" class="hover:text-amber-500">Browse Vehicles</a>
+          <a href="gallery.html" class="hover:text-amber-500">Media Gallery</a>
+          <a href="contact.html" class="hover:text-amber-500">Support Center</a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto mt-12 pt-6 border-t border-slate-900 text-center text-[10px] text-slate-600">
+      &copy; 2026 Trueman Cars. All Rights Reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
